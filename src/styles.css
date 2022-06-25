@@ -1,0 +1,108 @@
+/* Global styles */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+/* Root styles */
+
+html, body {
+    height: 100%;
+}
+
+#root {
+    background-color: #fdfdfd;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* Page header styles */
+
+.page-header {
+    padding: 3% 3% 2% 3%;
+    display: flex;
+}
+
+.page-header-left, .page-header-center, .page-header-right {
+    display: flex;
+    align-items: center;
+}
+
+.page-header-left {
+    justify-content: flex-start;
+    flex: 1;
+}
+
+.page-header-center {
+    justify-content: center;
+    flex: 2;
+}
+
+.page-header-right {
+    justify-content: flex-end;
+    flex: 1;
+}
+
+.page-title {
+    font-family: Palatino, Verdana, 'Times New Roman';
+    font-size: 40px;
+    line-height: .8;
+    color: #0f0f0f;
+    text-transform: uppercase;
+}
+
+.instagram-icon {
+    vertical-align: middle;
+}
+
+/* Page content styles */
+
+.page-content {
+    padding: 0 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+
+.about {
+    font-family: Palatino, Verdana, 'Times New Roman';
+    font-size: 20px;
+    text-align: center;
+}
+
+/* Page footer styles */
+
+.page-footer {
+    padding: 30px;
+    font-family: Palatino, Verdana, 'Times New Roman';
+    font-size: 14px;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+}
+
+/* Mobile styles */
+
+@media (max-width: 480px) {
+
+    #root {
+        justify-content: space-around;
+    }
+
+    .page-header-left, .page-header-right {
+        display: none;
+    }
+
+    .page-title {
+        font-size: 32px;
+    }
+
+    .about {
+        font-size: 16px;
+    }
+
+}
