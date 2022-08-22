@@ -1,6 +1,7 @@
 import { render } from "react-dom";
+import PatternList from "./components/PatternList";
+import InstagramFeed from "./components/InstagramFeed";
 import instagramIcon from "../assets/instagram-32.svg";
-import squareNeckCamisole from "../assets/square-neck-camisole.jpg";
 
 const App = () => {
   return (
@@ -18,51 +19,9 @@ const App = () => {
       </header>
       <div className="page-content">
         <hr />
-        <div className="designs">
-          <img className="designs-image" src={squareNeckCamisole}></img>
-          <div className="designs-info">
-            <h1>Square Neck Camisole</h1>
-            <p>
-              Square Neck Camisole er en allsidig singlet med en myk,
-              flatterende firkanthals. Ribbstrukturen gjør toppen svært tøyelig,
-              som gjør at den passer alle kroppsfasonger. Toppen strikkes
-              ovenfra og ned, og du kan enkelt justere lengden etter din egen
-              preferanse.
-            </p>
-            <div className="purchase-buttons">
-              <a
-                className="purchase-button purchase-button-strikkeland"
-                href="https://strikkeland.no/o/bruker/oppskrifter/show?produktID=110697&page=1"
-              >
-                Kjøp på Strikkeland
-              </a>
-              <a
-                className="purchase-button purchase-button-ravelry"
-                href="https://www.ravelry.com/patterns/library/square-neck-camisole"
-              >
-                Kjøp på Ravelry
-              </a>
-            </div>
-          </div>
-        </div>
+        <PatternList />
         <hr />
-        <div className="instagram-feed">
-          <a href="https://www.instagram.com/garnogslikt/">
-            <h1>Følg meg på Instagram</h1>
-          </a>
-          <iframe
-            src="//lightwidget.com/widgets/c7bd2611488857caa701eb86da052941.html"
-            scrolling="no"
-            allowTransparency={true}
-            className="lightwidget-widget"
-            style={{
-              height: "1000px",
-              width: "100%",
-              border: "0",
-              overflow: "hidden",
-            }}
-          ></iframe>
-        </div>
+        <InstagramFeed />
       </div>
       <footer className="page-footer">© Garn og slikt 2022</footer>
     </>
