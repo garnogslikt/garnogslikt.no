@@ -21,6 +21,7 @@ const App = () => {
         <hr />
         <PatternList />
         <hr />
+        <InstagramFeed />
       </div>
       <footer className="page-footer">© Garn og slikt 2022</footer>
     </>
