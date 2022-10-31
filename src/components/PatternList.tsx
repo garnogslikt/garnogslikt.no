@@ -10,7 +10,8 @@ const Patterns: IPatternProps[] = [
     imageSrc: pearlBeanie,
     info: "Pearl Beanie er en enkel og rask lue som strikkes nedenfra og opp i perleribbstruktur. Først strikkes bremmen, før det strikkes dobbeltstrikk som lager en definert brett på luen. Deretter vendes arbeidet og det strikkes perleribb, før det avsluttes med fellinger.",
     ravelryUrl: "https://www.ravelry.com/patterns/library/pearl-beanie-3",
-    strikkelandUrl: "",
+    strikkelandUrl:
+      "https://strikkeland.no/produkter/oppskrifter/show?produktID=110818&butikk=garnogslikt",
   },
   {
     title: "Herringbone Purse",
