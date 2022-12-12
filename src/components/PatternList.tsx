@@ -1,10 +1,18 @@
 import { Pattern, IPatternProps } from "./Pattern";
 import "./PatternList.css";
 import pearlBeanie from "../../assets/pearl-beanie.jpg";
+import pearlSweater from "../../assets/pearl-sweater.jpg";
 import herringbonePurse from "../../assets/herringbone-purse.jpg";
 import squareNeckCamisole from "../../assets/square-neck-camisole.jpg";
 
 const Patterns: IPatternProps[] = [
+  {
+    title: "Pearl Sweater (kommer snart)",
+    imageSrc: pearlSweater,
+    info: "Pearl Sweater er en feminin og delikat genser med en lett oversized passform, vide ermer og lange vrangborder. Genseren strikkes ovenfra og ned i perleribb med raglanøkninger på bærestykket og detaljer i 1x1 ribb.",
+    ravelryUrl: "https://www.ravelry.com/designers/helene-beba",
+    strikkelandUrl: "https://strikkeland.no/butikker/garnogslikt",
+  },
   {
     title: "Pearl Beanie",
     imageSrc: pearlBeanie,
