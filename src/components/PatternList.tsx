@@ -7,11 +7,12 @@ import squareNeckCamisole from "../../assets/square-neck-camisole.jpg";
 
 const Patterns: IPatternProps[] = [
   {
-    title: "Pearl Sweater (kommer snart)",
+    title: "Pearl Sweater",
     imageSrc: pearlSweater,
     info: "Pearl Sweater er en feminin og delikat genser med en lett oversized passform, vide ermer og lange vrangborder. Genseren strikkes ovenfra og ned i perleribb med raglanøkninger på bærestykket og detaljer i 1x1 ribb.",
-    ravelryUrl: "https://www.ravelry.com/designers/helene-beba",
-    strikkelandUrl: "https://strikkeland.no/butikker/garnogslikt",
+    ravelryUrl: "https://www.ravelry.com/patterns/library/pearl-sweater-10",
+    strikkelandUrl:
+      "https://strikkeland.no/produkter/oppskrifter/show?produktID=110856&&butikk=garnogslikt",
   },
   {
     title: "Pearl Beanie",
