@@ -1,11 +1,20 @@
 import { Pattern, IPatternProps } from "./Pattern";
 import "./PatternList.css";
+import pearlSocks from "../../assets/pearl-socks.jpg";
 import pearlBeanie from "../../assets/pearl-beanie.jpg";
 import pearlSweater from "../../assets/pearl-sweater.jpg";
 import herringbonePurse from "../../assets/herringbone-purse.jpg";
 import squareNeckCamisole from "../../assets/square-neck-camisole.jpg";
 
 const Patterns: IPatternProps[] = [
+  {
+    title: "Pearl Socks",
+    imageSrc: pearlSocks,
+    info: "Pearl Socks er et par enkle og raske sokker strikket i perleribb. Sokkene kan enten strikkes fra tåen og opp, eller fra skaftet og ned, alt etter din egen preferanse. Hælen strikkes ved hjelp av vendepinner, German Short Rows.",
+    ravelryUrl: "https://www.ravelry.com/patterns/library/pearl-socks",
+    strikkelandUrl:
+      "https://strikkeland.no/produkter/oppskrifter/show?produktID=110887&butikk=garnogslikt",
+  },
   {
     title: "Pearl Sweater",
     imageSrc: pearlSweater,
